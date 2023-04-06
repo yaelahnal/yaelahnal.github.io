@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+</body>
+<script>
+    const h1 = document.querySelector('h1');
+    setInterval(() => {
+        h1.textContent = new Date();
+    }, 1000);
+</script>
+</html>
